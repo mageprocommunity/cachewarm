@@ -1,6 +1,10 @@
 # Mage2 Module MagePro CacheWarm
 
-    ```magepro/module-cachewarm```
+[![Version](https://img.shields.io/badge/v1.0.0-beta-yellowgreen)](https://github.com/mageprocommunity/cachewarm)
+[![Version](https://img.shields.io/badge/magento-2.4.*-orange)](https://github.com/mageprocommunity/cachewarm)
+[![Version](https://img.shields.io/badge/magento-2.3.*-green)](https://github.com/mageprocommunity/cachewarm)
+[![Version](https://img.shields.io/badge/php-~7.4.0-blue)](https://github.com/mageprocommunity/cachewarm)
+[![Version](https://img.shields.io/badge/php-~8.1.0-blue)](https://github.com/mageprocommunity/cachewarm)
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -13,6 +17,9 @@
 Warmer for Magento
 
 ## Installation
+
+```magepro/module-cachewarm```
+
 \* = in production please use the `--keep-generated` option
 
 ### Type 1: Zip file
@@ -43,10 +50,11 @@ Warmer for Magento
 ## Specifications
 
  - Console Command
-	- warm
+	- ```bin/magento magepro_cachewarm:warm```
 
 
-## Attributes
+## License
+Please read the [LICENSE.txt](https://github.com/mageprocommunity/cachewarm/blob/master/LICENSE.txt) for the full text of the [Open Software License v. 3.0 (OSL-3.0)](http://opensource.org/licenses/osl-3.0.php).
 
 
 

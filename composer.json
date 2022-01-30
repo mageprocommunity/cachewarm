@@ -1,16 +1,20 @@
 {
     "name": "magepro/module-cachewarm",
-    "description": "Warmer for Magento",
+    "version": "1.0.0",
+    "description": "Cache Warmer for Magento",
     "type": "magento2-module",
     "license": "GPL-3.0",
     "authors": [
         {
-            "name": "Mage2Gen",
-            "email": "info@mage2gen.com"
+            "name": "MagePro Community",
+            "email": "lordbelial15@gmail.com"
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "~7.4.0||~8.1.0",
+        "magento/framework": "*"
+    },
     "autoload": {
         "files": [
             "registration.php"
